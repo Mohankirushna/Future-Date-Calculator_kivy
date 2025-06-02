@@ -1,0 +1,41 @@
+# 📅 Date Checker App (Kivy)
+
+A simple Kivy-based GUI app that calculates the date after a given number of days from today.  
+Enter the number of days, and it will show you the resulting future date! 🚀
+
+---
+
+## Features ✨
+
+- Enter a number of days in the input box  
+- Click **Calculate Date** button  
+- See the calculated date displayed in `dd-mm-yyyy` format  
+- Handles invalid or negative input gracefully with error messages ❌
+
+---
+
+## Requirements 🛠️
+
+- Python 3.x  
+- [Kivy](https://kivy.org/#home) framework  
+
+Install Kivy using pip if you haven't already:
+
+```bash
+pip install kivy
+
+How to Run ▶️
+Save the code in a file, e.g., date_checker.py
+
+Run the app using:
+python date_checker.py
+
+Code Overview 🧑‍💻
+Uses Kivy's BoxLayout for vertical stacking of widgets
+Label widgets for instructions and displaying results
+TextInput for user input (number of days)
+Button to trigger date calculation
+Calculates date using Python's datetime and timedelta modules
+
+License 📄
+MIT License
